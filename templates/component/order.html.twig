@@ -1,0 +1,15 @@
+{% set className = 'product-order' %}
+<div {{ attributes }}>
+    {% if form.courseMeeting is defined %}
+        <div id="{{ className }}" class="{{ className }}">
+            {{ form_start(form, {'attr': {'data-model': 'on(change)|*'}}) }}
+            {{ form_errors(form) }}
+
+            <div class="{{ className }}__available">
+                {{ form_row(form.courseMeeting) }}
+            </div>
+            {{ form_rest(form) }}
+            {{ form_end(form) }}
+        </div>
+    {% endif %}
+</div>

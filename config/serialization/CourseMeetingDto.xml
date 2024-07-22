@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<serializer xmlns="http://symfony.com/schema/dic/serializer-mapping"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://symfony.com/schema/dic/serializer-mapping https://symfony.com/schema/dic/serializer-mapping/serializer-mapping-1.0.xsd"
+>
+    <class name="App\CourseMeeting\Dto\CourseMeetingDto">
+        <attribute name="id">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="variantCode">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="realizationDate">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="placeName">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="earlyClubMembershipPrice">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="clubMembershipPrice">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="earlyNonClubMembershipPrice">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="nonClubMembershipPrice">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="consultantId">
+            <group>product:item:read</group>
+        </attribute>
+    </class>
+</serializer>

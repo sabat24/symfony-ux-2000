@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Issue 2000{% endblock %}</title>
+        {{ encore_entry_link_tags('app') }}
+
+        {{ encore_entry_script_tags('app') }}
+    </head>
+    <body>
+        {{ component('order') }}
+    </body>
+</html>

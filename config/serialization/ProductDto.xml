@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+
+<serializer xmlns="http://symfony.com/schema/dic/serializer-mapping"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://symfony.com/schema/dic/serializer-mapping https://symfony.com/schema/dic/serializer-mapping/serializer-mapping-1.0.xsd"
+>
+    <class name="App\Product\Dto\ProductDto">
+        <attribute name="id">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="title">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="description">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="additionalDescription">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="listDescription">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="imageUrl">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="imageWidth">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="imageHeight">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="videoUrl">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="videoPreviewImageUrl">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="slug">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="courseMeetings">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="defaultConsultantId">
+            <group>product:item:read</group>
+        </attribute>
+        <attribute name="announcementText">
+            <group>product:item:read</group>
+        </attribute>
+    </class>
+</serializer>
